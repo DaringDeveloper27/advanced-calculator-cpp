@@ -34,7 +34,7 @@ A dedicated documentation viewer built into the app to help users remember comma
 
 ## Project Structure
 
-* **`main.cpp`**: Contains the primary execution loop and input handling logic.
+* **`calculator.cpp`**: Contains the primary execution loop and input handling logic.
 * **`documentation.h`**: A custom header file containing the `showDocumentation()` function, utilizing `inline` to prevent ODR violations.
 
 ---
@@ -47,4 +47,4 @@ A dedicated documentation viewer built into the app to help users remember comma
 ### Compilation
 Open your terminal in the project directory and run:
 ```bash
-g++ main.cpp -o calculator
+g++ calculator.cpp -o calculator && ./calculator
